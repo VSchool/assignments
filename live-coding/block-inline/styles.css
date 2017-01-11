@@ -1,0 +1,21 @@
+h1 {
+    border: 1px dashed red;
+    width: 50%;
+    display: inline-block;
+}
+
+span {
+    border: 1px dashed blue;
+    display: block;
+}
+
+p {
+    display: inline-block;
+    width: 33%
+}
+
+.header {
+    
+}
+
+

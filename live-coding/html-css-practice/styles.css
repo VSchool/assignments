@@ -1,0 +1,11 @@
+.box {
+    height: 60px;
+    background-color: aqua;
+}
+
+.outer {
+    border: solid 2px black;
+    height: 100px;
+    width: 50%;
+}
+
