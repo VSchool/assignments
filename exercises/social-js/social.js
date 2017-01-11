@@ -1,6 +1,7 @@
 var friend = {
     firstName: "Jack",
     lastName: "Flash",
+    age: 42,
     prefersBlades: false,
     favoriteSkates: [
         {
@@ -8,9 +9,15 @@ var friend = {
             model: "Molasses model 3",
             size: 15,
             style: "Classic"
-                }
-            ]
+        }
+    ],
+    ageOneYear: function () {
+        this.age++;
+        console.log(this.age);
+    }
 }
+
+friend.ageOneYear();
 
 var anotherFriend = {
     firstName: "Jill",
@@ -22,8 +29,8 @@ var anotherFriend = {
             model: "Molasses model 3",
             size: 5,
             style: "Classic"
-                }
-            ]
+        }
+    ]
 }
 
 var skater = {
